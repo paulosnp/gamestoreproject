@@ -1,0 +1,70 @@
+/* header.css */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribui os itens de forma equilibrada */
+    padding: 10px 20px;
+    background-color: #1c1c1c;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    order: 1;
+}
+
+.search-bar {
+    width: 300px; /* Ajuste conforme necessário */
+    padding: 10px; /* Espaço interno */
+    font-size: 16px; /* Tamanho da fonte */
+    order: 3; /* Segunda posição */
+}
+
+.cart {
+    font-size: 16px;
+    order: 4; /* Terceira posição */
+}
+
+.menu-container {
+    position: relative;
+    order: 2; 
+}
+
+.menu-button {
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu-button:hover {
+    background-color: #555;
+}
+
+.dropdown-menu {
+    display: none; /* Esconde o dropdown por padrão */
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.menu-container:hover .dropdown-menu {
+    display: block; /* Exibe o dropdown ao passar o mouse */
+}
+
+.dropdown-menu a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #444;
+}

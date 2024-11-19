@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Store</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <link rel="stylesheet" href="/styles/style-header.css">
+    <link rel="stylesheet" href="/styles/style-footer.css">
+    <link rel="stylesheet" href="/styles/style-carrousel.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Nuuvem 2</div>
+    <div class="menu-container">
+        <button class="menu-button">Categorias</button>
+        <div class="dropdown-menu">
+            <a href="#">Ação</a>
+            <a href="#">Estratégia</a>
+            <a href="#">RPG</a>
+            <a href="#">FPS</a>
+            <a href="#">Aventura</a>
+            <a href="#">Puzzle</a>
+            <a href="#">Corrida</a>
+            <a href="#">Esporte</a>
+        </div>
+    </div>
+    <div class="menu-container">
+        <button class="menu-button">Plataformas</button>
+        <div class="dropdown-menu">
+            <a href="#">PC</a>
+            <a href="#">Playstation 5</a>
+            <a href="#">Playstation 4</a>
+            <a href="#">Xbox Series X/S</a>
+            <a href="#">Xbox One</a>
+            <a href="#">Nintendo Switch</a>
+        </div>
+    </div>
+    <input type="text" class="search-bar" placeholder="Search games...">
+    <div class="cart">Cart: 0</div>
+</header>
+    
+    <section class="carousel">
+      <div class="carousel-container">
+          <div class="carousel-slide">
+              <img src="https://cdn2.steamgriddb.com/grid/68b9819e787b9b053e683be7c62e2cff.png" alt="Imagem 1">
+          </div>
+          <div class="carousel-slide">
+              <img src="https://cdn2.steamgriddb.com/grid/1989d2d0108af415ac8a9a3b13090a95.png" alt="Imagem 2">
+          </div>
+          <div class="carousel-slide">
+              <img src="https://cdn2.steamgriddb.com/grid/41b28a11da13a0384a9b75f95244e8e8.png" alt="Imagem 3">
+          </div>
+          <div class="carousel-slide">
+              <img src="https://cdn2.steamgriddb.com/grid/10237d05b05959f0a40cfcf48ba3fb6a.png" alt="Imagem 4">
+          </div>
+          <div class="carousel-slide">
+              <img src="https://cdn2.steamgriddb.com/grid/68b9819e787b9b053e683be7c62e2cff.png" alt="Imagem 1"> <!-- Clonagem da primeira imagem -->
+          </div>
+      </div>
+      <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+      <button class="next" onclick="moveSlide(1)">&#10095;</button>
+  </section>
+    <main>
+      
+
+
+
+
+        <section class="content">
+            <h1>Melhor Avaliados</h1>
+            <p>Baseado em notas de jogadores</p>
+            <div class="filters">
+                <button>Filter by: none</button>
+                <button>Clear Filter</button>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://cdn2.steamgriddb.com/grid/055c25fa28c4eb8c6bb0672e557eef80.png" alt="Cyberpunk 2077">
+                    <h2>Cyberpunk 2077</h2>
+                    <p>$59.99</p>
+                </div>
+                <div class="card">
+                    <img src="https://cdn2.steamgriddb.com/grid/6d44d555d66bef025eb4c4f3b0355fc6.png" alt="Battlefield V">
+                    <h2>Battlefield V</h2>
+                    <p>$29.99</p>
+                </div>
+                <div class="card">
+                    <img src="https://cdn2.steamgriddb.com/grid/c06f1cc3f97a2ef1b86ed18229b8a14e.png" alt="Life is Strange">
+                    <h2>Life is Strange</h2>
+                    <p>$14.99</p>
+                </div>
+                <!-- Adicione mais cards conforme necessário -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Nuuvem 2</h3>
+          </div>
+          <div class="footer-section">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">Sobre</a></li>
+              <li><a href="#">Press Center</a></li>
+              <li><a href="#">Carreiras</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Consoles</h4>
+            <ul>
+              <li><a href="#">Playstation 5</a></li>
+              <li><a href="#">Xbox One</a></li>
+              <li><a href="#">Switch</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Product Help</h4>
+            <ul>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">File a Bug</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-note">
+          <p>Portions of this page are inspired by RAWG, RAWG.io. This page was built solely for educational purposes.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#">Privacy</a>
+          <a href="#">Security</a>
+          <a href="#">Cookies</a>
+          <a href="#">Legal</a>
+          <a href="#">Collaborative Guidelines</a>
+        </div>
+        <div class="footer-icons">
+          <a href="#"><img src="https://img.icons8.com/?size=100&id=22980&format=png&color=000000" alt="Google Play"></a>
+          <a href="#"><img src="https://img.icons8.com/?size=100&id=bep_ZUj5TddJ&format=png&color=000000" alt="App Store"></a>
+          <a href="#"><img src="https://img.icons8.com/?size=100&id=fJp7hepMryiw&format=png&color=000000" alt="Twitter"></a>
+          <a href="#"><img src="https://img.icons8.com/?size=100&id=85154&format=png&color=000000" alt="Instagram"></a>
+        </div>
+      </footer>
+      
+
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
