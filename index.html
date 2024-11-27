@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firelink</title>
+    <link rel="shortcut icon" href="https://www.svgrepo.com/show/506715/fire.svg" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./bootstrap-4.1.3/css/bootstrap.css">
+    <link rel="stylesheet" href="./styles/style-global.css">
+    
+
+</head>
+<body>
+    <!--- Barra de navegação inicial -->
+    <nav  id ="navbar" class="navbar navbar-expand-lg navbar-light bg-light shadow-sm p-3 mb-5 bg-white rounded">
+        <a id="logoname" class="navbar-brand" href="./pages/loginpage.html">
+            <img src="https://www.svgrepo.com/show/506715/fire.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Firelink
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html"><i class="fa-solid fa-house"></i> Home <span class="sr-only">(página atual)</span></a>
+              
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa-solid fa-star"></i> Destaques
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a id="linkBlack" class="dropdown-item" href="#">Promoções</a>
+                <a id="linkBlack" class="dropdown-item" href="#">Selecionados</a>
+                <a id="linkBlack" class="dropdown-item" href="#">Lançamentos</a>
+                <div class="dropdown-divider"></div>
+                <a id="linkBlack" class="dropdown-item" href="#">Black Friday</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa-solid fa-layer-group"></i> Categorias
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a id="linkBlack" class="dropdown-item" href="#">Ação</a>
+                <a id="linkBlack" class="dropdown-item" href="#">Estratégia</a>
+                <a id="linkBlack" class="dropdown-item" href="#">RPG</a>
+                <a id="linkBlack" class="dropdown-item" href="#">FPS</a>
+                <a id="linkBlack" class="dropdown-item" href="#">Aventura</a>
+                <a id="linkBlack" class="dropdown-item" href="#">Puzzle</a>
+                <a id="linkBlack" class="dropdown-item" href="#">Corrida</a>
+                <a id="linkBlack" class="dropdown-item" href="#">Esporte</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa-solid fa-gamepad"></i> Plataformas
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a id="linkBlack" class="dropdown-item" href="#">PC</a>
+                <a id="linkBlack" class="dropdown-item" href="#">Playstation 5</a>
+                <a id="linkBlack" class="dropdown-item" href="#">Playstation 4</a>
+                <div class="dropdown-divider"></div>
+                <a id="linkBlack" class="dropdown-item" href="#">Xbox Series X/S</a>
+                <a id="linkBlack" class="dropdown-item" href="#">Xbox One</a>
+                <div class="dropdown-divider"></div>
+                <a id="linkBlack" class="dropdown-item" href="#">Nintendo Switch</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button id="pesquisarbutton" class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          
+          <a href="./pages/loginpage.html">
+          <button type="button" class="btn btn-link">
+            <i class="fa-solid fa-user"></i>
+            Entrar
+          </button>
+        </a>
+        </div>
+      </nav>
+
+      <!-- Carrosel inicial -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active ">
+            <img class="d-block w-100" src="https://cdn2.steamgriddb.com/grid/68b9819e787b9b053e683be7c62e2cff.png" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://cdn2.steamgriddb.com/grid/1989d2d0108af415ac8a9a3b13090a95.png" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://cdn2.steamgriddb.com/grid/10237d05b05959f0a40cfcf48ba3fb6a.png" alt="Terceiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://cdn2.steamgriddb.com/grid/41b28a11da13a0384a9b75f95244e8e8.png" alt="Quarto Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+
+      <img class="banner-black-friday" src="https://i.ibb.co/HrsTsZp/firelink-promo.jpg" alt="">
+
+      <!-- Cards de jogos -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 mb-3 pr-3">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://cdn2.steamgriddb.com/grid/3b6620ecd3bf5900f5935985a2a434b6.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title text-truncate">S.T.A.L.K.E.R. 2: Heart of Chernobyl</h5>
+                  <p class="card-text"></p>
+                  <a href="./pages/gamepage.html" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 mb-3 pr-3">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://cdn2.steamgriddb.com/grid/7c97e8c0a76cf3259233b0fbf3c818ab.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title text-truncate">Red Dead Redemption 2</h5>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 mb-3 pr-3">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top text-truncate" src="https://cdn2.steamgriddb.com/grid/717d880623a6998b67c25c216ae2c1de.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Mafia: Definitive Edition</h5>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--footer starts from here-->
+<footer class="footer">
+  <div class="container bottom_border">
+  <div class="row">
+  <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+    <a id="logoname" class="navbar-brand" href="#">
+      <img src="https://www.svgrepo.com/show/506715/fire.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+      Firelink
+    </a>
+  <!--headin5_amrc-->
+  <p class="mb10">Na Firelink, somos o seu ponto de descanso em meio à jornada gamer. Um espaço acolhedor onde você encontra os melhores jogos, 
+    suporte de qualidade e novidades para continuar suas aventuras com energia. Aqui, 
+    combinamos conforto e paixão pelos games para criar um verdadeiro refúgio para os jogadores. Bem-vindo ao seu santuário gamer.</p>
+  <p><i class="fa fa-phone"></i>  +55-81-99999-9999  </p>
+  <p><i class="fa fa fa-envelope"></i> contact@firelink.com  </p>
+  
+  
+  </div>
+  
+  
+  <div class=" col-sm-4 col-md  col-6 col">
+  <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+  <!--headin5_amrc-->
+  <ul class="footer_ul_amrc">
+  <li><a href="http://webenlance.com">Image Rectoucing</a></li>
+  <li><a href="http://webenlance.com">Clipping Path</a></li>
+  <li><a href="http://webenlance.com">Hollow Man Montage</a></li>
+  <li><a href="http://webenlance.com">Ebay & Amazon</a></li>
+  <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+  <li><a href="http://webenlance.com">Image Cropping</a></li>
+  </ul>
+  <!--footer_ul_amrc ends here-->
+  </div>
+  
+  
+  <div class=" col-sm-4 col-md  col-6 col">
+  <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+  <!--headin5_amrc-->
+  <ul class="footer_ul_amrc">
+  <li><a href="http://webenlance.com">Remove Background</a></li>
+  <li><a href="http://webenlance.com">Shadows & Mirror Reflection</a></li>
+  <li><a href="http://webenlance.com">Logo Design</a></li>
+  <li><a href="http://webenlance.com">Vectorization</a></li>
+  <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+  <li><a href="http://webenlance.com">Image Cropping</a></li>
+  </ul>
+  <!--footer_ul_amrc ends here-->
+  </div>
+  
+  
+  <div class=" col-sm-4 col-md  col-12 col">
+  <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+  <!--headin5_amrc ends here-->
+  
+  <ul class="footer_ul2_amrc">
+  <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+  <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+  <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+  </ul>
+  <!--footer_ul2_amrc ends here-->
+  </div>
+  </div>
+  </div>
+  
+  
+  <div class="container">
+  <ul class="foote_bottom_ul_amrc">
+  <li><a href="http://webenlance.com">Home</a></li>
+  <li><a href="http://webenlance.com">About</a></li>
+  <li><a href="http://webenlance.com">Services</a></li>
+  <li><a href="http://webenlance.com">Pricing</a></li>
+  <li><a href="http://webenlance.com">Blog</a></li>
+  <li><a href="http://webenlance.com">Contact</a></li>
+  </ul>
+  <!--foote_bottom_ul_amrc ends here-->
+  <p class="text-center">Copyright @2024 | Designed With by <a href="#">Firelink Labs</a></p>
+  
+  <ul class="social_footer_ul">
+  <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
+  <li><a href="http://webenlance.com"><i class="fab fa-twitter"></i></a></li>
+  <li><a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a></li>
+  <li><a href="http://webenlance.com"><i class="fab fa-instagram"></i></a></li>
+  </ul>
+  <!--social_footer_ul ends here-->
+  </div>
+  
+  </footer>
+    
+    <script src="./jquery-3.3.1.slim.min.js"></script>
+    <script src="./popper.min.js"></script>
+    <script src="./bootstrap-4.1.3/js/bootstrap.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
