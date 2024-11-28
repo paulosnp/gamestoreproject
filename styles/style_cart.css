@@ -1,14 +1,25 @@
+.carrinho-page {
+    background-color: #f8f9fa; /* Cor de fundo específica para a página do carrinho */
+}
 
-
-#carrinho-itens {
-    border: 1px solid #dee2e6; /* Borda ao redor do carrinho */
+.carrinho-item {
+    background-color: #ffffff; /* Cor de fundo dos itens do carrinho */
+    border: 1px solid #dee2e6; /* Borda dos itens */
     border-radius: 5px; /* Bordas arredondadas */
-    padding: 10px; /* Espaçamento interno */
-    max-height: 200px; /* Altura máxima do carrinho */
-    overflow-y: auto; /* Rolagem se necessário */
+    padding: 15px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Margem inferior entre os itens */
+}
+
+.carrinho-item h5 {
+    margin: 0; /* Remove a margem do título do item */
 }
 
 #carrinho-total {
+    color: #ffffff;
     font-weight: bold; /* Negrito para o total */
-    color: #28a745; /* Cor verde para o total */
+    font-size: 1.5rem; /* Tamanho da fonte do total */
+}
+
+.carrinho-texts{
+    color: #ffffff !important;
 }

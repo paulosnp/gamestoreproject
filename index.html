@@ -48,7 +48,7 @@
                 <i class="fa-solid fa-layer-group"></i> Categorias
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a id="linkBlack" class="dropdown-item" href="#">Ação</a>
+                <a id="linkBlack" class="dropdown-item" href="./pages/action-genre.html">Ação</a>
                 <a id="linkBlack" class="dropdown-item" href="#">Estratégia</a>
                 <a id="linkBlack" class="dropdown-item" href="#">RPG</a>
                 <a id="linkBlack" class="dropdown-item" href="#">FPS</a>
@@ -81,9 +81,9 @@
             </button>
           </form>
           <a id="linkbutton" href="./pages/carrinho.html">
-          <button type="button" class="btn btn-link">
-            <i class="fa-solid fa-cart-shopping"></i> <span class="badge badge-light">0</span>
-          </button>
+            <button type="button" class="btn btn-link">
+                <i class="fa-solid fa-cart-shopping"></i> <span class="badge badge-light">0</span>
+            </button>
         </a>
           
           <a href="./pages/loginpage.html">
@@ -135,40 +135,48 @@
         <div class="row">
           <div class="col-12 col-sm-6 col-md-4 mb-3 pr-3">
             <div class="card" style="width: 18rem;">
+              <a href="./pages/gamepage.html">  
                 <img class="card-img-top" src="https://cdn2.steamgriddb.com/grid/3b6620ecd3bf5900f5935985a2a434b6.png" alt="Imagem de capa do card">
+              </a>
                 <div class="card-body">
                   <h5 class="card-title text-truncate">S.T.A.L.K.E.R. 2: Heart of Chernobyl</h5>
                   <p class="card-text"></p>
-                  <a href="./pages/gamepage.html" class="btn btn-primary">Comprar</a>
+                  <a id="pricebutton" href="#" class="btn btn-secondary btn-block" 
+   onclick="adicionarAoCarrinho('S.T.A.L.K.E.R. 2: Heart of Chernobyl', 200.00)"><i class="fa-solid fa-cart-shopping"></i> R$200,00</a>
                 </div>
               </div>
           </div>
           <div class="col-12 col-sm-6 col-md-4 mb-3 pr-3">
             <div class="card" style="width: 18rem;">
+              <a href="./pages/gamepage2.html"> 
                 <img class="card-img-top" src="https://cdn2.steamgriddb.com/grid/7c97e8c0a76cf3259233b0fbf3c818ab.png" alt="Imagem de capa do card">
+              </a> 
                 <div class="card-body">
                   <h5 class="card-title text-truncate">Red Dead Redemption 2</h5>
                   <p class="card-text"></p>
-                  <a href="./pages/gamepage2.html" class="btn btn-primary">Comprar</a>
+                  <a id="pricebutton" href="./pages/gamepage2.html" class="btn btn-secondary btn-block"><i class="fa-solid fa-cart-shopping"></i> R$300,00</a>
                 </div>
               </div>
           </div>
           <div class="col-12 col-sm-6 col-md-4 mb-3 pr-3">
             <div class="card" style="width: 18rem;">
+              <a href="./pages/gamepage3.html">  
                 <img class="card-img-top text-truncate" src="https://cdn2.steamgriddb.com/grid/717d880623a6998b67c25c216ae2c1de.png" alt="Imagem de capa do card">
+              </a>
                 <div class="card-body">
                   <h5 class="card-title">Mafia: Definitive Edition</h5>
                   <p class="card-text"></p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
+                  <a id="pricebutton" href="./pages/gamepage3.html" class="btn btn-secondary btn-block"><i class="fa-solid fa-cart-shopping"></i> R$229,90</a>
                 </div>
               </div>
           </div>
         </div>
       </div>
 
+      
 
 
-      <!--footer starts from here-->
+
 <footer class="footer">
   <div class="container bottom_border">
   <div class="row">
@@ -177,7 +185,6 @@
       <img src="https://www.svgrepo.com/show/506715/fire.svg" width="30" height="30" class="d-inline-block align-top" alt="">
       Firelink
     </a>
-  <!--headin5_amrc-->
   <p class="mb10">Na Firelink, somos o seu ponto de descanso em meio à jornada gamer. Um espaço acolhedor onde você encontra os melhores jogos, 
     suporte de qualidade e novidades para continuar suas aventuras com energia. Aqui, 
     combinamos conforto e paixão pelos games para criar um verdadeiro refúgio para os jogadores. Bem-vindo ao seu santuário gamer.</p>
@@ -190,62 +197,39 @@
   
   <div class=" col-sm-4 col-md  col-6 col">
   <h5 class="headin5_amrc col_white_amrc pt2">Links Rápidos</h5>
-  <!--headin5_amrc-->
   <ul class="footer_ul_amrc">
   <li><a href="./index.html">Home</a></li>
   <li><a href="#">Promoções</a></li>
   <li><a href="#">Equipe</a></li>
+  <li><a href="#">Quem Somos</a></li>
   </ul>
-  <!--footer_ul_amrc ends here-->
   </div>
   
   
   <div class=" col-sm-4 col-md  col-6 col">
   <h5 class="headin5_amrc col_white_amrc pt2">Ajuda</h5>
-  <!--headin5_amrc-->
   <ul class="footer_ul_amrc">
   <li><a href="#">Suporte</a></li>
   <li><a href="#">Termos de Uso</a></li>
   <li><a href="#">Política de Privacidade</a></li>
   </ul>
-  <!--footer_ul_amrc ends here-->
   </div>
   
   
-  <div class=" col-sm-4 col-md  col-12 col">
-  <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
-  <!--headin5_amrc ends here-->
   
-  <ul class="footer_ul2_amrc">
-  <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
-  <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
-  <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
-  </ul>
-  <!--footer_ul2_amrc ends here-->
-  </div>
   </div>
   </div>
   
   
   <div class="container">
-  <ul class="foote_bottom_ul_amrc">
-  <li><a href="http://webenlance.com">Home</a></li>
-  <li><a href="http://webenlance.com">About</a></li>
-  <li><a href="http://webenlance.com">Services</a></li>
-  <li><a href="http://webenlance.com">Pricing</a></li>
-  <li><a href="http://webenlance.com">Blog</a></li>
-  <li><a href="http://webenlance.com">Contact</a></li>
-  </ul>
-  <!--foote_bottom_ul_amrc ends here-->
   <p class="text-center">Copyright @2024 | Designed by <a href="#">Firelink Labs</a></p>
   
   <ul class="social_footer_ul">
-  <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
-  <li><a href="http://webenlance.com"><i class="fab fa-twitter"></i></a></li>
-  <li><a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a></li>
-  <li><a href="http://webenlance.com"><i class="fab fa-instagram"></i></a></li>
+  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+  <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
   </ul>
-  <!--social_footer_ul ends here-->
   </div>
   
   </footer>

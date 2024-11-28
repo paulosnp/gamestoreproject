@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ação</title>
+    <link rel="shortcut icon" href="https://www.svgrepo.com/show/506715/fire.svg" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../bootstrap-4.1.3/css/bootstrap.css">
+    <link rel="stylesheet" href="../styles/style-global.css">
+    
+
+</head>
+<body>
+  <nav  id ="navbar" class="navbar navbar-expand-lg navbar-light bg-light shadow-sm p-3 mb-5 bg-white rounded">
+    <a id="logoname" class="navbar-brand" href="../index.html">
+        <img src="https://www.svgrepo.com/show/506715/fire.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        Firelink
+      </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../index.html"><i class="fa-solid fa-house"></i> Home <span class="sr-only">(página atual)</span></a>
+          
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa-solid fa-star"></i> Destaques
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a id="linkBlack" class="dropdown-item" href="#">Promoções</a>
+            <a id="linkBlack" class="dropdown-item" href="#">Selecionados</a>
+            <a id="linkBlack" class="dropdown-item" href="#">Lançamentos</a>
+            <div class="dropdown-divider"></div>
+            <a id="linkBlack" class="dropdown-item" href="#">Black Friday</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa-solid fa-layer-group"></i> Categorias
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a id="linkBlack" class="dropdown-item" href="#">Ação</a>
+            <a id="linkBlack" class="dropdown-item" href="#">Estratégia</a>
+            <a id="linkBlack" class="dropdown-item" href="#">RPG</a>
+            <a id="linkBlack" class="dropdown-item" href="#">FPS</a>
+            <a id="linkBlack" class="dropdown-item" href="#">Aventura</a>
+            <a id="linkBlack" class="dropdown-item" href="#">Puzzle</a>
+            <a id="linkBlack" class="dropdown-item" href="#">Corrida</a>
+            <a id="linkBlack" class="dropdown-item" href="#">Esporte</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa-solid fa-gamepad"></i> Plataformas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a id="linkBlack" class="dropdown-item" href="#">PC</a>
+            <a id="linkBlack" class="dropdown-item" href="#">Playstation 5</a>
+            <a id="linkBlack" class="dropdown-item" href="#">Playstation 4</a>
+            <div class="dropdown-divider"></div>
+            <a id="linkBlack" class="dropdown-item" href="#">Xbox Series X/S</a>
+            <a id="linkBlack" class="dropdown-item" href="#">Xbox One</a>
+            <div class="dropdown-divider"></div>
+            <a id="linkBlack" class="dropdown-item" href="#">Nintendo Switch</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button id="pesquisarbutton" class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+      <a id="linkbutton" href="../pages/carrinho.html">
+      <button type="button" class="btn btn-link">
+        <i class="fa-solid fa-cart-shopping"></i> <span class="badge badge-light">0</span>
+      </button>
+    </a>
+      
+      <a href="../pages/loginpage.html">
+      <button type="button" class="btn btn-link">
+        <i class="fa-solid fa-user"></i>
+        Entrar
+      </button>
+    </a>
+    </div>
+  </nav>
+
+  <nav aria-label="Navegação de página exemplo">
+    <ul class="pagination">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Anterior">
+          <span aria-hidden="true">&laquo;</span>
+          <span class="sr-only">Anterior</span>
+        </a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">4</a></li>
+      <li class="page-item"><a class="page-link" href="#">5</a></li>
+      <li class="page-item"><a class="page-link" href="#">...</a></li>
+      <li class="page-item"><a class="page-link" href="#">67</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Próximo">
+          <span aria-hidden="true">&raquo;</span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  
+  <div class="container mt-4">
+    <div class="row">
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4">
+            <div class="card">
+                <a href="../pages/gamepage.html"> <img src="https://cdn2.steamgriddb.com/grid/c5b5306715167ae3aac3c57deb53288d.jpg" class="card-img-top " alt="..."> </a>
+                <div class="card-body">
+                    <h5 class="card-title text-truncate">S.T.A.L.K.E.R. 2: Heart of Chornobyl</h5>
+                    <a id="pricebutton" href="#" class="btn btn-secondary btn-block" 
+                    onclick="adicionarAoCarrinho('S.T.A.L.K.E.R. 2: Heart of Chernobyl', 200.00)"> <i class="fa-solid fa-cart-shopping"></i> R$200,00</a>
+                </div>
+            </div>
+        </div>
+        <!-- Copie e cole os cards abaixo -->
+        <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-3 mb-4">
+          <div class="card">
+            <a href="../pages/gamepage3.html"><img src="https://cdn2.steamgriddb.com/grid/edf9ea91fabfb986033870a6c317a7c4.png" class="card-img-top " alt="..."></a>
+            <div class="card-body">
+                <h5 class="card-title text-truncate">Mafia: Definitive Edition</h5>
+                <a id="pricebutton" href="#" class="btn btn-secondary btn-block"> <i class="fa-solid fa-cart-shopping"></i> R$229,90</a>
+            </div>
+        </div> 
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4">
+          <div class="card">
+            <a href="../pages/gamepage2.html"><img src="https://cdn2.steamgriddb.com/grid/3940304b536796dcc176aa83203a3955.png" class="card-img-top " alt="..."></a>
+            <div class="card-body">
+                <h5 class="card-title text-truncate">Red Dead Redemption 2</h5>
+                <a id="pricebutton" href="../pages/gamepage2.html" class="btn btn-secondary btn-block"><i class="fa-solid fa-cart-shopping"></i> R$300,00</a>
+            </div>
+        </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4">
+          <div class="card">
+            <a href="../pages/gamepage2.html"><img src="https://cdn2.steamgriddb.com/grid/eae7437c8206a4f30a3c676e49cb9037.jpg" class="card-img-top " alt="..."></a>
+            <div class="card-body">
+                <h5 class="card-title text-truncate">UNCHARTED™: Legacy of Thieves Collection</h5>
+                <a id="pricebutton" href="../pages/gamepage2.html" class="btn btn-secondary btn-block"><i class="fa-solid fa-cart-shopping"></i> R$80,00</a>
+            </div>
+        </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4">
+          <div class="card">
+            <a href="../pages/gamepage2.html"><img src="https://cdn2.steamgriddb.com/grid/6d34508bd51862304942e803f8888de5.png" class="card-img-top " alt="..."></a>
+            <div class="card-body">
+                <h5 class="card-title text-truncate">Devil May Cry 5: Special Edition</h5>
+                <a id="pricebutton" href="../pages/gamepage2.html" class="btn btn-secondary btn-block"><i class="fa-solid fa-cart-shopping"></i> R$110,00</a>
+            </div>
+        </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4">
+          <div class="card">
+            <a href="../pages/gamepage2.html"><img src="https://cdn2.steamgriddb.com/grid/7325756d790a1626acf5d2af12610812.jpg" class="card-img-top " alt="..."></a>
+            <div class="card-body">
+                <h5 class="card-title text-truncate">Dark Souls II</h5>
+                <a id="pricebutton" href="../pages/gamepage2.html" class="btn btn-secondary btn-block"><i class="fa-solid fa-cart-shopping"></i> R$70,00</a>
+            </div>
+        </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4">
+          <div class="card">
+            <a href="../pages/gamepage2.html"><img src="https://cdn2.steamgriddb.com/grid/4c55cc422cab2389c9f1d88eda34da57.jpg" class="card-img-top " alt="..."></a>
+            <div class="card-body">
+                <h5 class="card-title text-truncate">Resident Evil 4</h5>
+                <a id="pricebutton" href="../pages/gamepage2.html" class="btn btn-secondary btn-block"><i class="fa-solid fa-cart-shopping"></i> R$75,90</a>
+            </div>
+        </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4">
+          <div class="card">
+            <a href="../pages/gamepage2.html"><img src="https://cdn2.steamgriddb.com/grid/ccfe7678d2412fe68fc540485c23a0b9.png" class="card-img-top " alt="..."></a>
+            <div class="card-body">
+                <h5 class="card-title text-truncate">Assassin's Creed IV: Black Flag</h5>
+                <a id="pricebutton" href="../pages/gamepage2.html" class="btn btn-secondary btn-block"><i class="fa-solid fa-cart-shopping"></i> R$46,30</a>
+            </div>
+        </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4">
+          <div class="card">
+            <a href="../pages/gamepage2.html"><img src="https://cdn2.steamgriddb.com/grid/94b4f1c7033b10801cd7696329c5d15d.png" class="card-img-top " alt="..."></a>
+            <div class="card-body">
+                <h5 class="card-title text-truncate">Hitman</h5>
+                <a id="pricebutton" href="../pages/gamepage2.html" class="btn btn-secondary btn-block"><i class="fa-solid fa-cart-shopping"></i> R$59,90</a>
+            </div>
+        </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4">
+          <div class="card">
+            <a href="../pages/gamepage2.html"><img src="https://cdn2.steamgriddb.com/grid/229118b6b5ec48bd139405e378234df9.jpg" class="card-img-top " alt="..."></a>
+            <div class="card-body">
+                <h5 class="card-title text-truncate">Hitman 3</h5>
+                <a id="pricebutton" href="../pages/gamepage2.html" class="btn btn-secondary btn-block"><i class="fa-solid fa-cart-shopping"></i> R$89,90</a>
+            </div>
+        </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4">
+          <div class="card">
+            <a href="../pages/gamepage2.html"><img src="https://cdn2.steamgriddb.com/grid/fb44aefd1a9882c906593efaf6f8ce40.png" class="card-img-top " alt="..."></a>
+            <div class="card-body">
+                <h5 class="card-title text-truncate">Injustice 2 - Legendary Edition</h5>
+                <a id="pricebutton" href="../pages/gamepage2.html" class="btn btn-secondary btn-block"><i class="fa-solid fa-cart-shopping"></i> R$38,00</a>
+            </div>
+        </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4">
+          <div class="card">
+            <a href="../pages/gamepage2.html"><img src="https://cdn2.steamgriddb.com/grid/bb375cd0b85fafbaea7a865130fc8e97.png" class="card-img-top " alt="..."></a>
+            <div class="card-body">
+                <h5 class="card-title text-truncate">Dark Souls III</h5>
+                <a id="pricebutton" href="../pages/gamepage2.html" class="btn btn-secondary btn-block" ><i class="fa-solid fa-cart-shopping"></i> R$127,40</a>
+            </div>
+        </div>
+        </div>
+        <!-- Adicione mais cards aqui -->
+    </div>
+</div>
+
+<nav aria-label="Navegação de página exemplo">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Anterior">
+        <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only">Anterior</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">4</a></li>
+    <li class="page-item"><a class="page-link" href="#">5</a></li>
+    <li class="page-item"><a class="page-link" href="#">...</a></li>
+    <li class="page-item"><a class="page-link" href="#">67</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Próximo">
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+
+<footer class="footer">
+  <div class="container bottom_border">
+  <div class="row">
+  <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+    <a id="logoname" class="navbar-brand" href="#">
+      <img src="https://www.svgrepo.com/show/506715/fire.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+      Firelink
+    </a>
+  <p class="mb10">Na Firelink, somos o seu ponto de descanso em meio à jornada gamer. Um espaço acolhedor onde você encontra os melhores jogos, 
+    suporte de qualidade e novidades para continuar suas aventuras com energia. Aqui, 
+    combinamos conforto e paixão pelos games para criar um verdadeiro refúgio para os jogadores. Bem-vindo ao seu santuário gamer.</p>
+  <p><i class="fa fa-phone"></i>  +55-81-99999-9999  </p>
+  <p><i class="fa fa fa-envelope"></i> contact@firelink.com  </p>
+  
+  
+  </div>
+  
+  
+  <div class=" col-sm-4 col-md  col-6 col">
+  <h5 class="headin5_amrc col_white_amrc pt2">Links Rápidos</h5>
+  <ul class="footer_ul_amrc">
+  <li><a href="../index.html">Home</a></li>
+  <li><a href="#">Promoções</a></li>
+  <li><a href="#">Equipe</a></li>
+  <li><a href="#">Quem Somos</a></li>
+  </ul>
+  </div>
+  
+  
+  <div class=" col-sm-4 col-md  col-6 col">
+  <h5 class="headin5_amrc col_white_amrc pt2">Ajuda</h5>
+  <ul class="footer_ul_amrc">
+  <li><a href="#">Suporte</a></li>
+  <li><a href="#">Termos de Uso</a></li>
+  <li><a href="#">Política de Privacidade</a></li>
+  </ul>
+  </div>
+  
+  
+  
+  </div>
+  </div>
+  
+  
+  <div class="container">
+  <p class="text-center">Copyright @2024 | Designed by <a href="#">Firelink Labs</a></p>
+  
+  <ul class="social_footer_ul">
+  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+  <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+  </ul>
+  </div>
+  
+  </footer>
+
+ 
+
+
+  <script src="../jquery-3.3.1.slim.min.js"></script>
+    <script src="../popper.min.js"></script>
+    <script src="../bootstrap-4.1.3/js/bootstrap.js"></script>
+    <script src="../scripts/script.js"></script>
+</body>
+
+</html>

@@ -133,6 +133,28 @@
   margin-top: 10px;
 }
 
-#listaDeDesejos{
-  
+.btn-secondary{
+  background-color: #384657 !important;
+}
+
+#pricebutton {
+  transition: background-color 0.3s, color 0.3s; /* Para uma transição suave */
+}
+
+#pricebutton:hover {
+  background-color: #cc3333 !important; /* Cor de fundo quando o mouse está sobre */
+  color: white !important; /* Cor do texto quando o mouse está sobre */
+}
+
+.pagination {
+  display: flex;
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination .page-link {
+  background: #151d27;
+  color: white;
+  border: none;
 }
