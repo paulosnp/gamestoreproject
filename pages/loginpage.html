@@ -15,72 +15,93 @@
 <body>
 <!-- Barra de Navegação -->
 <nav  id ="navbar" class="navbar navbar-expand-lg navbar-light bg-light shadow-sm p-3 mb-5 bg-white rounded">
-    <a id="logoname" class="navbar-brand" href="#">
-        <img src="https://www.svgrepo.com/show/506715/fire.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        Firelink
-      </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-      <span class="navbar-toggler-icon"></span>
+  <a id="logoname" class="navbar-brand" href="../index.html">
+      <img src="https://www.svgrepo.com/show/506715/fire.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+      Firelink
+    </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="../index.html"><i class="fa-solid fa-house"></i> Home <span class="sr-only">(página atual)</span></a>
+        
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa-solid fa-star"></i> Destaques
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a id="linkBlack" class="dropdown-item" href="#">Promoções</a>
+          <a id="linkBlack" class="dropdown-item" href="#">Selecionados</a>
+          <a id="linkBlack" class="dropdown-item" href="#">Lançamentos</a>
+          <div class="dropdown-divider"></div>
+          <a id="linkBlack" class="dropdown-item" href="#">Black Friday</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa-solid fa-layer-group"></i> Categorias
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a id="linkBlack" class="dropdown-item" href="#">Ação</a>
+          <a id="linkBlack" class="dropdown-item" href="#">Estratégia</a>
+          <a id="linkBlack" class="dropdown-item" href="#">RPG</a>
+          <a id="linkBlack" class="dropdown-item" href="#">FPS</a>
+          <a id="linkBlack" class="dropdown-item" href="#">Aventura</a>
+          <a id="linkBlack" class="dropdown-item" href="#">Puzzle</a>
+          <a id="linkBlack" class="dropdown-item" href="#">Corrida</a>
+          <a id="linkBlack" class="dropdown-item" href="#">Esporte</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa-solid fa-gamepad"></i> Plataformas
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a id="linkBlack" class="dropdown-item" href="#">PC</a>
+          <a id="linkBlack" class="dropdown-item" href="#">Playstation 5</a>
+          <a id="linkBlack" class="dropdown-item" href="#">Playstation 4</a>
+          <div class="dropdown-divider"></div>
+          <a id="linkBlack" class="dropdown-item" href="#">Xbox Series X/S</a>
+          <a id="linkBlack" class="dropdown-item" href="#">Xbox One</a>
+          <div class="dropdown-divider"></div>
+          <a id="linkBlack" class="dropdown-item" href="#">Nintendo Switch</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+      <button id="pesquisarbutton" class="btn btn-outline-success my-2 my-sm-0" type="submit">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </form>
+    <a id="linkbutton" href="../pages/carrinho.html">
+    <button type="button" class="btn btn-link">
+      <i class="fa-solid fa-cart-shopping"></i> <span class="badge badge-light">0</span>
     </button>
-  
-    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="../index.html">Home <span class="sr-only">(página atual)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Botao</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Categorias
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a id="linkBlack" class="dropdown-item" href="#">Ação</a>
-            <a id="linkBlack" class="dropdown-item" href="#">Estratégia</a>
-            <a id="linkBlack" class="dropdown-item" href="#">RPG</a>
-            <a id="linkBlack" class="dropdown-item" href="#">FPS</a>
-            <a id="linkBlack" class="dropdown-item" href="#">Aventura</a>
-            <a id="linkBlack" class="dropdown-item" href="#">Puzzle</a>
-            <a id="linkBlack" class="dropdown-item" href="#">Corrida</a>
-            <a id="linkBlack" class="dropdown-item" href="#">Esporte</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Plataformas
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a id="linkBlack" class="dropdown-item" href="#">PC</a>
-            <a id="linkBlack" class="dropdown-item" href="#">Playstation 5</a>
-            <a id="linkBlack" class="dropdown-item" href="#">Playstation 4</a>
-            <div class="dropdown-divider"></div>
-            <a id="linkBlack" class="dropdown-item" href="#">Xbox Series X/S</a>
-            <a id="linkBlack" class="dropdown-item" href="#">Xbox One</a>
-            <div class="dropdown-divider"></div>
-            <a id="linkBlack" class="dropdown-item" href="#">Nintendo Switch</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Desativado</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-      </form>
-    </div>
-  </nav>
+  </a>
+    
+    <a href="../pages/loginpage.html">
+    <button type="button" class="btn btn-link">
+      <i class="fa-solid fa-user"></i>
+      Entrar
+    </button>
+  </a>
+  </div>
+</nav>
 
   <div class="container">
     <div class="row">
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
         <div class="card border-0 shadow rounded-3 my-5">
+          <a id="logoname2" class="navbar-brand text-center" href="#">
+            <img src="https://www.svgrepo.com/show/506715/fire.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Firelink
+          </a>
           <div id="back" class="card-body p-4 p-sm-5">
-            <a id="logoname" class="navbar-brand" href="#">
-              <img src="https://www.svgrepo.com/show/506715/fire.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-              Firelink
-            </a>
             <h5 class="card-title text-center mb-5 fw-light fs-5">Entrar</h5>
             <form>
               <div class="form-floating mb-3">

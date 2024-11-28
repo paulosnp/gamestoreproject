@@ -1,0 +1,14 @@
+
+
+#carrinho-itens {
+    border: 1px solid #dee2e6; /* Borda ao redor do carrinho */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno */
+    max-height: 200px; /* Altura máxima do carrinho */
+    overflow-y: auto; /* Rolagem se necessário */
+}
+
+#carrinho-total {
+    font-weight: bold; /* Negrito para o total */
+    color: #28a745; /* Cor verde para o total */
+}

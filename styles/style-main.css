@@ -119,3 +119,20 @@
   font-weight: 400;
   font-style: normal;
 }
+
+#linkbutton{
+  text-decoration: none;
+}
+
+#logoname2{
+  font-family: "Bungee Spice", sans-serif !important;
+  padding-top: 20px;
+}
+
+.badge{
+  margin-top: 10px;
+}
+
+#listaDeDesejos{
+  
+}
