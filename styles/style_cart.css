@@ -1,25 +1,33 @@
-.carrinho-page {
-    background-color: #f8f9fa; /* Cor de fundo específica para a página do carrinho */
+.carrinho-container {
+    background-color: #151d27; /* Cor de fundo da página */
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
 }
 
-.carrinho-item {
-    background-color: #ffffff; /* Cor de fundo dos itens do carrinho */
-    border: 1px solid #dee2e6; /* Borda dos itens */
-    border-radius: 5px; /* Bordas arredondadas */
-    padding: 15px; /* Espaçamento interno */
-    margin-bottom: 10px; /* Margem inferior entre os itens */
+.carrinho-container h1 {
+    font-family: "Bungee Spice", sans-serif; /* Fonte personalizada */
+    color: #ffcc00; /* Cor do título */
 }
 
-.carrinho-item h5 {
-    margin: 0; /* Remove a margem do título do item */
+.card {
+    background-color: #24303f; /* Cor de fundo dos cards */
+    border: none; /* Remove bordas do card */
 }
 
-#carrinho-total {
-    color: #ffffff;
-    font-weight: bold; /* Negrito para o total */
-    font-size: 1.5rem; /* Tamanho da fonte do total */
+.card-title {
+    color: #ffcc00; /* Cor do título do card */
 }
 
-.carrinho-texts{
-    color: #ffffff !important;
+.btn-success {
+    background-color: #28a745; /* Cor do botão de finalizar compra */
+    border: none; /* Remove bordas do botão */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Cor do botão de remover */
+    border: none; /* Remove bordas do botão */
+}
+
+.btn-danger:hover, .btn-success:hover {
+    opacity: 0.8; /* Efeito de hover nos botões */
 }

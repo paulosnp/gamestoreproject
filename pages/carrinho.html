@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -94,11 +94,34 @@
       </nav>
     
     
-    <div class="container mt-5">
-
-        <h3 id="carrinho-texts" class="mt-4"><i class="fa-solid fa-cart-shopping"></i> Carrinho:</h3>
-        <div id="carrinho-itens" class="mb-3"></div>
-        <h4 id="carrinho-total">Total: R$ 0.00</h4>
+      <div class="carrinho-container">
+        <div class="container">
+            <h1 class="text-center my-4">Seu Carrinho</h1>
+            <div class="row">
+                <div class="col-md-8">
+                    <!-- Lista de produtos no carrinho -->
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Produto 1</h5>
+                            <p class="card-text">Descrição do produto 1.</p>
+                            <p class="card-text"><strong>Preço: R$ 99,99</strong></p>
+                            <button class="btn btn-danger">Remover</button>
+                        </div>
+                    </div>
+                    <!-- Adicione mais produtos conforme necessário -->
+                </div>
+                <div class="col-md-4">
+                    <!-- Resumo do carrinho -->
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Resumo do Carrinho</h5>
+                            <p id="carrinho-total" class="card-text">Total: R$ 0.00</p>
+                            <button class="btn btn-success btn-block">Finalizar Compra</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
