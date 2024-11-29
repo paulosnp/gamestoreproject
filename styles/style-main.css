@@ -4,7 +4,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+}a
 
 .container {
   padding-top: 30px;
@@ -12,11 +12,17 @@
 }
 
 .banner-black-friday {
-  display: block; /* Faz a imagem ser um bloco */
-  margin-left: auto; /* Margem esquerda automática */
-  margin-right: auto; /* Margem direita automática */
-  width: 80%; /* Faz a imagem ocupar 100% da largura do contêiner */
-  height: auto; /* Mantém a proporção da imagem */
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px; 
+  margin-bottom: 50px;
+  width: 80%; 
+  height: auto; 
+}
+
+#container-cards-home {
+  margin-bottom: 80px;
 }
 
   body{
@@ -46,7 +52,13 @@
 
 .img-gameinfo {
   border-radius: 10px;
-  width: 40rem;
+  width: 100%;
+  max-width: 50rem;
+  margin-right: 1rem;
+}
+
+#buy-card-gamepage {
+  max-width: 30rem;
 }
 
 .gamename {
@@ -56,8 +68,27 @@
   align-items: center;
 }
 
+#aboutgame, #details, #card-requisitos {
+  margin-bottom: 1rem;
+}
+
+.card {
+  width: 100%;
+}
+
 #aboutgame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
   margin-bottom: 30px;
+}
+
+#details {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 90%;
 }
 
 .card{
@@ -66,9 +97,10 @@
 }
 
 #card-requisitos {
+  display: flex;
   margin: auto;
-  margin-left: 12px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  
 }
 
 #game-cardbody {
@@ -81,19 +113,18 @@
   display: flex;
   flex-direction: column;
   flex: 1;
-  margin-right: 212px;
 }
 
 #pesquisarbutton{
   background-color: #24303f;
   color: white;
   border: none;
-  transition: background-color 0.3s ease, transform 0.1s ease; /* Adicionando transição */
+  transition: background-color 0.3s ease, transform 0.1s ease;
 }
 
 #pesquisarbutton:active {
-  background-color: #1a1f24; /* Cor de fundo ao clicar */
-  transform: scale(0.95); /* Efeito de redução de tamanho */
+  background-color: #1a1f24;
+  transform: scale(0.95);
   border: orange !important;
 }
 
@@ -125,12 +156,12 @@
 }
 
 #pricebutton {
-  transition: background-color 0.3s, color 0.3s; /* Para uma transição suave */
+  transition: background-color 0.3s, color 0.3s;
 }
 
 #pricebutton:hover {
-  background-color: #cc3333 !important; /* Cor de fundo quando o mouse está sobre */
-  color: white !important; /* Cor do texto quando o mouse está sobre */
+  background-color: #cc3333 !important;
+  color: white !important;
 }
 
 .pagination {
@@ -151,6 +182,14 @@
 }
 
 .carousel-inner img {
-  width: 100%; /* Faz a imagem ocupar 100% da largura do contêiner */
-  height: auto; /* Mantém a proporção da imagem */
+  width: 100%;
+  height: auto;
+}
+
+#tituloAcao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  font-family: "Bungee Spice", sans-serif !important;
 }

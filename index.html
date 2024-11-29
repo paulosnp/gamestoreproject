@@ -105,16 +105,16 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="https://cdn2.steamgriddb.com/grid/68b9819e787b9b053e683be7c62e2cff.png" alt="Primeiro Slide">
+                <img class="d-block w-100" id="carousel-img-home" src="https://cdn2.steamgriddb.com/grid/68b9819e787b9b053e683be7c62e2cff.png" alt="Primeiro Slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="https://cdn2.steamgriddb.com/grid/1989d2d0108af415ac8a9a3b13090a95.png" alt="Segundo Slide">
+                <img class="d-block w-100" id="carousel-img-home" src="https://cdn2.steamgriddb.com/grid/1989d2d0108af415ac8a9a3b13090a95.png" alt="Segundo Slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="https://cdn2.steamgriddb.com/grid/10237d05b05959f0a40cfcf48ba3fb6a.png" alt="Terceiro Slide">
+                <img class="d-block w-100" id="carousel-img-home" src="https://cdn2.steamgriddb.com/grid/10237d05b05959f0a40cfcf48ba3fb6a.png" alt="Terceiro Slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="https://cdn2.steamgriddb.com/grid/41b28a11da13a0384a9b75f95244e8e8.png" alt="Quarto Slide">
+                <img class="d-block w-100" id="carousel-img-home" src="https://cdn2.steamgriddb.com/grid/41b28a11da13a0384a9b75f95244e8e8.png" alt="Quarto Slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -132,23 +132,23 @@
     </div>
 
       <!-- Cards de jogos -->
-      <div class="container mt-4">
+      <div class="container mt-4" id="container-cards-home">
         <div class="row">
           <!-- Card 1 -->
           <div class="col-md-4">
-            <div class="card" style="width: 100%;">
-              <img class="card-img-top" src="https://cdn2.steamgriddb.com/grid/3b6620ecd3bf5900f5935985a2a434b6.png" alt="Imagem de capa do card">
+            <div class="card" style="width: 100%;" id="card-home">
+              <a href="../pages/gamepage.html"> <img class="card-img-top" src="https://cdn2.steamgriddb.com/grid/3b6620ecd3bf5900f5935985a2a434b6.png" alt="Imagem de capa do card"> </a>
               <div class="card-body">
                 <h5 class="card-title text-truncate">S.T.A.L.K.E.R. 2: Heart of Chernobyl</h5>
-                <button id="pricebutton" class="btn btn-secondary btn-block" onclick="adicionarAoCarrinho('S.T.A.L.K.E.R. 2: Heart of Chernobyl', 200.00)"> <i class="fa-solid fa-cart-shopping"></i> R$200,00</button>
+                <button id="pricebutton" class="btn btn-secondary btn-block" onclick="adicionarAoCarrinho('S.T.A.L.K.E.R. 2: Heart of Chornobyl', 200.00)"> <i class="fa-solid fa-cart-shopping"></i> R$200,00</button>
               </div>
             </div>
           </div>
     
           <!-- Card 2 -->
           <div class="col-md-4">
-            <div class="card" style="width: 100%;">
-              <img class="card-img-top" src="https://cdn2.steamgriddb.com/grid/7c97e8c0a76cf3259233b0fbf3c818ab.png" alt="Imagem de capa do card">
+            <div class="card" style="width: 100%;" id="card-home">
+              <a href="../pages/gamepage2.html"> <img class="card-img-top" src="https://cdn2.steamgriddb.com/grid/7c97e8c0a76cf3259233b0fbf3c818ab.png" alt="Imagem de capa do card"> </a>
               <div class="card-body">
                 <h5 class="card-title text-truncate">Red Dead Redemption 2</h5>
                 <button id="pricebutton" class="btn btn-secondary btn-block" onclick="adicionarAoCarrinho('Red Dead Redemption 2', 300.00)"> <i class="fa-solid fa-cart-shopping"></i> R$300,00</button>
@@ -158,8 +158,8 @@
     
           <!-- Card 3 -->
           <div class="col-md-4">
-            <div class="card" style="width: 100%;">
-              <img class="card-img-top" src="https://cdn2.steamgriddb.com/grid/717d880623a6998b67c25c216ae2c1de.png" alt="Imagem de capa do card">
+            <div class="card" style="width: 100%;" id="card-home">
+              <a href="../pages/gamepage3.html"> <img class="card-img-top" src="https://cdn2.steamgriddb.com/grid/717d880623a6998b67c25c216ae2c1de.png" alt="Imagem de capa do card"> </a>
               <div class="card-body">
                 <h5 class="card-title text-truncate">Mafia: Definitive Edition</h5>
                 <button id="pricebutton" class="btn btn-secondary btn-block" onclick="adicionarAoCarrinho('Mafia: Definitive Edition', 229.90)"> <i class="fa-solid fa-cart-shopping"></i> R$229,90</button>

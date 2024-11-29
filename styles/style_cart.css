@@ -1,33 +1,33 @@
 .carrinho-container {
-    background-color: #151d27; /* Cor de fundo da página */
-    color: white; /* Cor do texto */
-    padding: 20px; /* Espaçamento interno */
+    background-color: #151d27;
+    color: white;
+    padding: 20px;
 }
 
 .carrinho-container h1 {
-    font-family: "Bungee Spice", sans-serif; /* Fonte personalizada */
-    color: #ffcc00; /* Cor do título */
+    font-family: "Bungee Spice", sans-serif;
+    color: #ffcc00;
 }
 
 .card {
-    background-color: #24303f; /* Cor de fundo dos cards */
-    border: none; /* Remove bordas do card */
+    background-color: #24303f;
+    border: none;
 }
 
 .card-title {
-    color: #ffcc00; /* Cor do título do card */
+    color: #ffcc00;
 }
 
 .btn-success {
-    background-color: #28a745; /* Cor do botão de finalizar compra */
-    border: none; /* Remove bordas do botão */
+    background-color: #28a745;
+    border: none;
 }
 
 .btn-danger {
-    background-color: #dc3545; /* Cor do botão de remover */
-    border: none; /* Remove bordas do botão */
+    background-color: #dc3545;
+    border: none;
 }
 
 .btn-danger:hover, .btn-success:hover {
-    opacity: 0.8; /* Efeito de hover nos botões */
+    opacity: 0.8;
 }

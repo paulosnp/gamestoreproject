@@ -49,14 +49,14 @@
           <i class="fa-solid fa-layer-group"></i> Categorias
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a id="linkBlack" class="dropdown-item" href="#">Ação</a>
-          <a id="linkBlack" class="dropdown-item" href="#">Estratégia</a>
-          <a id="linkBlack" class="dropdown-item" href="#">RPG</a>
-          <a id="linkBlack" class="dropdown-item" href="#">FPS</a>
-          <a id="linkBlack" class="dropdown-item" href="#">Aventura</a>
-          <a id="linkBlack" class="dropdown-item" href="#">Puzzle</a>
-          <a id="linkBlack" class="dropdown-item" href="#">Corrida</a>
-          <a id="linkBlack" class="dropdown-item" href="#">Esporte</a>
+          <a id="linkBlack" class="dropdown-item" href="../pages/action-genre.html">Ação</a>
+          <a id="linkBlack" class="dropdown-item" href="../pages/action-genre.html">Estratégia</a>
+          <a id="linkBlack" class="dropdown-item" href="../pages/action-genre.html">RPG</a>
+          <a id="linkBlack" class="dropdown-item" href="../pages/action-genre.html">FPS</a>
+          <a id="linkBlack" class="dropdown-item" href="../pages/action-genre.html">Aventura</a>
+          <a id="linkBlack" class="dropdown-item" href="../pages/action-genre.html">Puzzle</a>
+          <a id="linkBlack" class="dropdown-item" href="../pages/action-genre.html">Corrida</a>
+          <a id="linkBlack" class="dropdown-item" href="../pages/action-genre.html">Esporte</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -100,87 +100,84 @@
 
   <div class="container" id="gamepage-container">
     <div class="row">
-      <div class="col">
-        <img class="img-gameinfo" src="https://cdn2.steamgriddb.com/grid/717d880623a6998b67c25c216ae2c1de.png" alt="Imagem de capa do jogo">
-        <a href="./pages/oneplayer-genre.html"><span class="badge badge-primary">Um Jogador</span></a>
-        <a href="./pages/action-genre.html"><span class="badge badge-light">Ação</span></a>
-        <a href="./pages/adventure-genre.html"><span class="badge badge-light">Tiro</span></a>
-      
-      </div>
-      <div class="col">
-        <p class="gamename ">Mafia: Definitive Edition </p>
-        <div class="card w-75">
-          <div class="card-body" id="buy-card-gamepage">
-            <h5 class="card-title">R$229,90</h5>
-            <div class="alert alert-danger" role="alert">
-              <strong>15% OFF: </strong>De R$229,90 Para R$195,41
+        <div class="col-12 col-md-6">
+            <img class="img-gameinfo img-fluid" src="https://cdn2.steamgriddb.com/grid/717d880623a6998b67c25c216ae2c1de.png" alt="Imagem de capa do jogo">
+            <div class="mt-2">
+                <a href="../pages/action-genre.html"><span class="badge badge-primary">Um Jogador</span></a>
+                <a href="../pages/action-genre.html"><span class="badge badge-light">Ação</span></a>
+                <a href="../pages/action-genre.html"><span class="badge badge-light">FPS</span></a>
+                <a href="../pages/action-genre.html"><span class="badge badge-light">Aventura</span></a>
             </div>
-            <p class="card-text"><strong>Ativação: </strong>Steam</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
-            <a href="#" id="listaDeDesejos" class="btn btn-primary"><i id="icon" class="fa-regular fa-heart"></i></a>
-          </div>
         </div>
-      </div>
-
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="card" id="aboutgame" style="width: 40rem;">
-              <div class="card-body">
-                <h5 class="card-title">Descrição</h5>
-                <p class="card-text">Mafia: Definitive Edition é um jogo de ação e aventura que reimagina o clássico título de 2002, desenvolvido pela Hangar 13 e publicado pela 2K Games. Ambientado na década de 1930, durante a era da Lei Seca nos Estados Unidos, o jogo coloca os jogadores no papel de Tommy Angelo, um humilde taxista que, após um encontro inesperado com membros da poderosa família criminosa Salieri, é arrastado para o mundo do crime organizado.
-
-                  Inicialmente relutante, Tommy acaba se envolvendo cada vez mais com a máfia, construindo laços de lealdade e enfrentando rivalidades mortais com gangues inimigas, policiais corruptos e figuras poderosas. Enquanto sobe na hierarquia, ele começa a questionar as consequências de suas escolhas, enfrentando dilemas morais e tentando proteger os que ama.
-                  
-                  Com gráficos atualizados, uma narrativa profundamente imersiva e um cenário ricamente detalhado que captura a essência da época, Mafia: Definitive Edition combina ação intensa, drama e exploração em um mundo aberto fielmente inspirado nos Estados Unidos da Grande Depressão. É uma jornada de ascensão, traição e sacrifício em busca de poder e sobrevivência.
-                
-                </p>
-              </div>
+        <div class="col-12 col-md-6">
+            <p class="gamename">Mafia: Definitive Edition</p>
+            <div class="card w-100 mb-3" id="buy-card-gamepage">
+                <div class="card-body">
+                    <h5 class="card-title">R$229,90</h5>
+                    <div class="alert alert-danger" role="alert">
+                        <strong>15% OFF: </strong>De R$229,90 Para R$195,41
+                    </div>
+                    <p class="card-text"><strong>Ativação: </strong>Steam</p>
+                    <button id="pricebutton" class="btn btn-secondary" onclick="adicionarAoCarrinho('Mafia: Definitive Edition', 229.90)"> <i class="fa-solid fa-cart-shopping"></i> Comprar</button>
+                    <a href="#" id="listaDeDesejos" class="btn btn-primary"><i id="icon" class="fa-regular fa-heart"></i></a>
+                </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card" id="aboutgame" style="width: 21rem;">
-              <div class="card-body">
-                <h5 class="card-title">Detalhes</h5>
-                <p><strong>Data de Lançamento: </strong>25 de setembro de 2020.</p>
-                <p><strong>Desenvolvedor: </strong>Hangar 13</p>
-                <p><strong>Plataformas: </strong>Xbox Series X/S, Windows</p>
-                <p><strong>Gêneros: </strong>Ação, Tiro</p>
-                <p><strong>Modo de Jogo: </strong>Um Jogador</p>
-              </div>
-            </div>
-          </div>
-            
-          </div>
         </div>
+    </div>
+</div>
+<div class="container">
+  <div class="row">
+      <div class="col-12 col-md-6">
+          <div class="card" id="aboutgame">
+              <div class="card-body">
+                  <h5 class="card-title">Descrição</h5>
+                  <p class="card-text">Mafia: Definitive Edition é um jogo de ação e aventura que reimagina o clássico título de 2002, desenvolvido pela Hangar 13 e publicado pela 2K Games. Ambientado na década de 1930, durante a era da Lei Seca nos Estados Unidos, o jogo coloca os jogadores no papel de Tommy Angelo, um humilde taxista que, após um encontro inesperado com membros da poderosa família criminosa Salieri, é arrastado para o mundo do crime organizado.
 
-        <div class="card" id="card-requisitos">
-          <h5 class="card-header">Requisitos de Sistema</h5>
-          <div class="card-body" id="game-cardbody">
-            <div class="requisitos-minimos">
+                    Inicialmente relutante, Tommy acaba se envolvendo cada vez mais com a máfia, construindo laços de lealdade e enfrentando rivalidades mortais com gangues inimigas, policiais corruptos e figuras poderosas. Enquanto sobe na hierarquia, ele começa a questionar as consequências de suas escolhas, enfrentando dilemas morais e tentando proteger os que ama.
+  
+                    Com gráficos atualizados, uma narrativa profundamente imersiva e um cenário ricamente detalhado que captura a essência da época, Mafia: Definitive Edition combina ação intensa, drama e exploração em um mundo aberto fielmente inspirado nos Estados Unidos da Grande Depressão. É uma jornada de ascensão, traição e sacrifício em busca de poder e sobrevivência.
+                  </p>
+              </div>
+          </div>
+      </div>
+      <div class="col-12 col-md-6">
+          <div class="card" id="details">
+              <div class="card-body">
+                  <h5 class="card-title">Detalhes</h5>
+                  <p><strong>Data de Lançamento: </strong> 25 de setembro de 2020 </p>
+                  <p><strong>Desenvolvedor: </strong>Hangar 13</p>
+                  <p><strong>Plataformas: </strong>Xbox Series X/S, Windows</p>
+                  <p><strong>Gêneros: </strong>Ação, FPS, Aventura</p>
+                  <p><strong>Modo de Jogo: </strong>Um Jogador</p>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="card" id="card-requisitos">
+      <h5 class="card-header">Requisitos de Sistema</h5>
+      <div class="card-body" id="game-cardbody">
+          <div class="requisitos-minimos">
               <h5 class="card-title">Mínimos</h5>
-              <p class="card-text"><strong>S.O: </strong>SO: Windows 7 de 64 bits </p>
-              <p class="card-text"><strong>CPU: </strong>CPU Intel: I5-2500K CPU AMD: AMD FX-8120</p>
-              <p class="card-text"><strong>RAM: </strong>6 GB</p>
-              <p class="card-text"><strong>GPU: </strong>Placa de vídeo AMD: Radeon HD7870 Placa de vídeo NVIDIA: GeForce GTX 660</p>
-              <p class="card-text"><strong>Armazenamento: </strong>60 GB </p>
-            </div>
-            <div class="requisitos-recomendados">
-              <h5 class="card-title">Recomendados</h5>
-              <p class="card-text"><strong>S.O: </strong>60 GB </p>
-              <p class="card-text"><strong>CPU: </strong>CPU Intel: I7-3770 CPU AMD: AMD FX 8350 4,0 Ghz</p>
-              <p class="card-text"><strong>RAM: </strong>8 GB</p>
-              <p class="card-text"><strong>GPU: </strong>Placa de vídeo AMD: Radeon R9 290X Placa de vídeo NVIDIA: GeForce GTX 780</p>
-              <p class="card-text"><strong>Armazenamento: </strong>60 GB</p>
-            </div>
+              <p class="card-text"><strong>S.O: </strong>Windows 7 de 64 bits </p>
+              <p class="card-text"><strong>CPU: </strong>Intel: I5-2500K AMD: AMD FX-8120</p>
+              <p class="card-text"><strong>RAM: </strong>6GB</p>
+              <p class="card-text"><strong>GPU: </strong>AMD: Radeon HD7870 / NVIDIA: GeForce GTX 660</p>
+              <p class="card-text"><strong>Armazenamento: </strong>60GB</p>
           </div>
-        </div>
-
-    </div> 
-  </div> 
+          <div class="requisitos-recomendados">
+              <h5 class="card-title">Recomendados</h5>
+              <p class="card-text"><strong>S.O: </strong>Windows 10 64-bit</p>
+              <p class="card-text"><strong>CPU: </strong>Intel: I7-3770 / AMD: AMD FX 8350 4,0 Ghz</p>
+              <p class="card-text"><strong>RAM: </strong>8GB</p>
+              <p class="card-text"><strong>GPU: </strong>AMD: Radeon R9 290X / NVIDIA: GeForce GTX 780</p>
+              <p class="card-text"><strong>Armazenamento: </strong>60GB</p>
+          </div>
+      </div>
+  </div>
 </div>
 
-<footer class="footer">
+  <footer class="footer">
   <div class="container bottom_border">
   <div class="row">
   <div class=" col-sm-4 col-md col-sm-4  col-12 col">
@@ -237,9 +234,9 @@
   
   </footer>
 
-    <script src="./jquery-3.3.1.slim.min.js"></script>
-    <script src="./popper.min.js"></script>
-    <script src="./bootstrap-4.1.3/js/bootstrap.js"></script>
+    <script src="../jquery-3.3.1.slim.min.js"></script>
+    <script src="../popper.min.js"></script>
+    <script src="../bootstrap-4.1.3/js/bootstrap.js"></script>
     <script src="../scripts/script.js"></script>
 
 </body>
